@@ -7,6 +7,7 @@ function onFormSubmit(event) {
 
   if (!formElenents.email.value || !formElenents.password.value) {
     alert('Заповни свої дані!!!');
+    return;
   }
   const email = formElenents.email.value;
   const password = formElenents.password.value;
